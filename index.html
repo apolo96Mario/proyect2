@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/img/lobo.png" type="imagen/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="/java/main.js" defer></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Shopping Car</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="header_nav">
+            <a href="#" class="header_logo"><img class="logo" src="/img/logo_nombre.png"></a>
+            <button class="header_btn">
+                <box-icon name='menu'></box-icon>
+            </button>
+            <figure class="header_car_btn"> 
+                <img class="car_img1" src="./img/carrito.png" alt="car_icon">
+                <img class="car_img2" src="./img/carrito-hover.gif" alt="car_icon">
+                <span>0</span>
+            </figure>
+            <div class="car_modal">
+                <div class="car_products"></div>
+                <div class="car_totals">
+                    <div>
+                        <p><span>Cantidad:</span> 0</p>
+                        <p><span>Total:</span> $0</p>
+                    </div>
+                    <button class="btn_buy">Ir al carrito</button>
+                </div>
+            </div>
+         </nav> 
+
+    <nav class="header_nav_2">
+        <div class="central_logo">
+            <img class= "logo1" src="./img/logo blanco.png" alt="logo_blanco">  
+        </div>
+        <form class="header_list" action="#"> 
+            <h2>Todos nuestros productos</h2>
+            <select class="header_list_select">
+                <option value="products">Todos</option>
+                <option value="shirt">camisetas</option>
+                <option value="hoddie">Hoddies</option>
+                <option value="sweater">Sweaters</option>
+            </select>
+        </form>
+        
+    </nav>
+    </header>
+    <main>
+        <section class="products">
+        </section>
+        <section class="view_modal">
+            <article class="content_modal "></article>
+            <span class="close_modal">  <- Academlo Tienda Oficial</span>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Footer -->
+    </footer>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</body>
+</html>
